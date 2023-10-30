@@ -33,7 +33,6 @@ body{
     
     width: 100vw;
     height: 100vh;
-    display: flex;
     margin: 0rem 0;
     background-image: var(--gradient);
     background-size: 400%;
@@ -127,7 +126,7 @@ body{
 }
 
 
-.circle {
+/* .circle {
     height: 18px;
     width: 18px;
     background: linear-gradient(217deg, rgba(138, 86, 86, 0.8), rgba(255,0,0,0) 70.71%),
@@ -139,18 +138,14 @@ body{
     
     border-radius: 50%;
     position: absolute;
-  }
+  } */
 
-  /* section{
-    margin-left: 2.5rem;
-    min-height: 100vh;
-    padding: 50px 0;
-} */
+
 footer{
 
     color: var(--Lightgray);
     font-weight: 200;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     padding: 0.5rem;
     letter-spacing: 2px;
     position: fixed;
@@ -172,7 +167,8 @@ footer{
     display: flex;
     justify-content: right;
     list-style: none;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     gap: 20px;
     
 }
@@ -199,9 +195,7 @@ footer{
     border-radius: 15px;
     transition: transform 0.2s ease-in;
     
-    /* transform: translateY(10px); */
-    /* font-size: 1.3em; */
-    
+
 }
 .clicked{
     color:  rgb(45, 174, 110);
@@ -226,9 +220,9 @@ footer{
     gap: 10rem;
 }
 #welcome h1{
-    font-size: 3em;
+    font-size: 3rem;
     color:  rgb(45, 174, 110);
-    animation: name 4s ease infinite;
+
     
 }
 #welcome img{
@@ -236,37 +230,18 @@ footer{
     border-radius: 100%;
 }
 #welcome p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-style: italic;
     color: var(--Verydarkgrayishblue);
     
     
 }
 #welcome h3{
-    font-size: 2em;
+    font-size: 2rem;
     color: var(--Verydarkgrayishblue);
     
 }
-/* @keyframes name {
-    0%, 100% {
-      color: radial-gradient(silver, snow);
-    }
-    20% {
-      color: radial-gradient(#2b5876, #4e4376);
-    }
-    40% {
-      color: radial-gradient(#44A08D, #093637);
-    }
-    60% {
-      color: radial-gradient(#DD5E89, #F7BB97);
-    }
-    80% {
-      color: radial-gradient(#348F50, #56B4D3);
-    }
-    90% {
-      color: radial-gradient(#bdc3c7, #2c3e50);
-    }
-  } */
+
 
 #education{
     font-family: 'Roboto', sans-serif;
@@ -282,7 +257,7 @@ footer{
     padding-bottom: 1.3rem;
     
     /* text-decoration: 1.5px; */
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 0.25rem;
     font-weight: bold;
    
@@ -305,7 +280,7 @@ footer{
 }
 #education .uni-logo h2{
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1rem;
     color: var(--Lightgray);
     font-weight: 300;
 }
@@ -322,7 +297,7 @@ footer{
     /* text-align: left; */
     color: var(--Lightgray);
     font-weight: 100;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 #work{
@@ -342,7 +317,7 @@ footer{
     color: var(--Lightgray);
     margin: auto;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 0.25rem;
     padding-top: 1.5rem;
     color: var(--Lightgray);
@@ -381,7 +356,7 @@ footer{
     color: var(--Lightgray);
 } */
 .jobDate{
-    font-size: 0.9em;
+    font-size: 0.9rem;
     color: var(--Lightgray);
     letter-spacing: 0.05rem;
     opacity: 0.7;
@@ -399,7 +374,7 @@ footer{
     padding: 0.7rem;
     list-style-type:disc;
     line-height:normal;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     color: White;
     font-weight: 100;
     line-height: 1.5rem;
@@ -519,7 +494,7 @@ footer{
     color: var(--Lightgray);
     margin: auto;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 0.25rem;
     padding: 1.5rem;
     color: var(--Lightgray);
@@ -553,6 +528,7 @@ footer{
 }
 .image img{
     border-radius: 8px;
+    width: 150px;
 
 }
 
@@ -560,7 +536,7 @@ footer{
     color: var(--Lightgray);
     margin: auto;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 0.25rem;
     padding: 1rem;
     color: var(--Lightgray);
@@ -570,7 +546,7 @@ footer{
     color: var(--Lightgray);
     margin: auto;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 0.25rem;
     color: var(--Lightgray);
     line-height: 1.5rem;
@@ -580,7 +556,7 @@ footer{
     color: var(--Lightgray);
     margin: auto;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 0.25rem;
     color: rgb(45, 174, 110);
     transition: transform 0.2s ease-in;
@@ -622,9 +598,10 @@ footer{
     cursor: pointer;
     transition: opacity 0.5s ease-in-out;
 }
-
-
-
+.cv{
+    width: 900px;
+    height: 500px;
+}
 #contact{
     /* margin: auto; */
     font-family:  'Roboto', sans-serif ;
@@ -666,7 +643,531 @@ footer{
 }
 
 
+@media only screen and (max-width: 425px){
+    body{
 
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container span{
+   
+        color: #fff;
+        letter-spacing: 15px;
+        font-size: 30px;
+        animation: loading 4s;
+        font-family:"Staatliches", sans-serif;
+        opacity: 0;
+    }
+
+   
+#navbar{
+    
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background:none;
+    font-size: 0.65rem;
+
+    
+}
+
+.nav-link{
+    
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    gap: 0.015rem;
+   
+    
+}
+
+.nav-link a{
+    text-decoration: none;
+    padding: 0 0.7rem;
+    color: var(--Lightgray);
+    font-weight: 100;
+    opacity: 0.8;
+
+}
+
+.nav-link a:hover{
+   
+    color:  rgb(45, 174, 110);
+    filter: brightness(100%);
+    filter: drop-shadow(50%);
+    font-weight: bold;
+    opacity: 1;
+    cursor: pointer;
+    transition: cursor 500ms ease-in-out;
+    border: 2px dotted  rgb(45, 174, 110);
+    border-radius: 15px;
+    transition: transform 0.2s ease-in;
+    
+}
+section{
+    height: 80vh;
+}
+
+#welcome{
+    margin: auto;
+    
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 6vw; */
+    align-items: center;
+    padding: 2rem 4rem;
+    justify-content: space-around;
+    gap: 3rem;
+}
+#welcome h1{
+    font-size: 1.9rem;
+    color:  rgb(45, 174, 110);
+    animation: name 4s ease infinite;
+    
+}
+#welcome img{
+    width: 60%;
+    margin: auto;
+    border-radius: 100%;
+}
+#welcome p{
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--Verydarkgrayishblue);
+    
+    
+}
+#welcome h3{
+    font-size: 1.3rem;
+    color: var(--Verydarkgrayishblue);
+    
+}
+
+
+
+#education{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05rem; 
+     
+    
+}
+#education h1{
+    color: var(--Lightgray);
+    margin: auto;
+
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    letter-spacing: 0.25rem;
+    font-weight: bold;
+   
+}
+
+#education .uni-logo{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    gap: 0.5rem;
+    padding: 1.5rem;
+
+}
+#education .uni-logo img{
+   border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    width: 10px;
+    width: 130px;
+    
+}
+#education .uni-logo h2{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--Lightgray);
+    font-weight: 400;
+}
+#education .uni-logo h3{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: var(--Lightgray);
+    font-weight: 300;
+}
+#education .uni-logo p{
+    font-size: 0.7rem;
+}
+.uni-name{
+    /* text-align: left; */
+    color: var(--Lightgray);
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#work{
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 0.05rem;
+    
+    
+}
+
+.division{
+    
+    padding: 0 0.15rem;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    justify-content: space-evenly;
+}
+#work h1{
+    
+    color: var(--Lightgray);
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.25rem;
+    padding: 1rem 0;
+   
+}
+
+
+.work-logo{
+    text-decoration: none;
+    text-align: left;
+    padding: 0 1.5rem;
+    /* padding: 1.9rem; */
+    
+    
+}
+#work .work-logo h2{
+   
+    font-size: 0.9rem;
+    color:  rgb(45, 174, 110);
+    /* padding-bottom: 0.7rem; */
+    
+}
+.work-logo h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--Lightgray);
+    letter-spacing: 0.05rem;
+
+}
+.jobTitle{
+    line-height: 1.1rem;
+    letter-spacing: 0.05rem;
+    align-items: center;
+    padding-top: 0.7rem;
+}
+/* #work .work-logo p{
+    font-size: 1.0em;
+    color: var(--Lightgray);
+} */
+.jobDate{
+    font-size: 0.7rem;
+    color: var(--Lightgray);
+    letter-spacing: 0.05rem;
+    opacity: 0.7;
+
+}
+
+.location{
+    font-size: 0.7rem;
+    color: var(--Lightgray);
+    letter-spacing: 0.05rem;
+    opacity: 0.7;
+}
+
+#work .work-logo ol{
+    padding: 0.15rem;
+    list-style-type:disc;
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+    color: White;
+    font-weight: 100;
+    /* line-height: 1.5rem; */
+    letter-spacing: 0.05rem;
+}
+.skills{
+    color: rgb(251, 255, 255);
+    padding: 0.9rem 0.1rem 0.9rem 0.1rem;
+    font-size: 0.8rem;
+
+}
+.skills span:nth-child(1){
+    
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(2){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(3){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(4){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(5){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(6){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(7){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(8){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(9){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(10){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(11){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(12){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+
+#projects{
+    
+    font-family:  'Roboto', sans-serif ;
+    
+    height: 145vh;
+    margin: 0rem 0;
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: bg-animation 25s infinite alternate;
+
+}
+#projects h1{
+    color: var(--Lightgray);
+    margin: 5rem 0 0 0;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.25rem;  
+    color: var(--Lightgray);
+    padding-top: 5rem;
+    
+  
+}
+.projectList{
+    margin: 0 2rem;
+}
+.List{
+    
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); */
+    flex-direction: column;
+    gap: 0.1rem;
+
+}
+.pl{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 1rem;
+    align-items: center; 
+    border-radius: 10px;
+    gap: 0.1rem;
+    
+
+}
+.pl:hover{
+    background-color:  rgb(45, 174, 110,0.1);
+    border-bottom: 2px solid var(--Lightgray);
+    border-left: none;
+    transition: transform 0.2s ease-in;
+}
+.image img{
+    border-radius: 8px;
+    width: 80px;
+}
+
+.pd{
+    color: var(--Lightgray);
+    margin: auto;
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 0.25rem;
+    padding: 0.7rem;
+    color: var(--Lightgray);
+    line-height: 1.5rem;
+}
+.pd a{
+    color: var(--Lightgray);
+    margin: auto;
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 0.25rem;
+    color: var(--Lightgray);
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+.pd a:hover{
+    color: var(--Lightgray);
+    margin: auto;
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 0.25rem;
+    color: rgb(45, 174, 110);
+    transition: transform 0.2s ease-in;
+}
+.pd h3{
+    font-size: 0.75rem;
+    
+}
+.pd h3:hover{
+    text-decoration: underline;
+}
+.pd p{
+    font-size: 0.7rem;
+    
+}
+.pd p:hover{
+    text-decoration: underline;
+}
+.show-all{
+    
+    margin: 0.2rem 0rem 0.7rem 12rem;
+    display: flex;
+    justify-content: center;
+}
+.show-all a{
+    text-decoration: none;
+    background-color:  rgb(45, 174, 110,0.1);
+    color: var(--Lightgray);
+    align-items: right;
+    border-radius: 10px;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.7rem;
+ 
+}
+.show-all a:hover{
+    text-decoration: underline;
+    color:  rgb(45, 174, 110);
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+.cv{
+    width: 375px;
+    height: 400px;
+}
+
+#contact{
+   
+    font-family:  'Roboto', sans-serif ;
+}
+.contactHeading{
+    color: var(--Lightgray);
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 0.25rem;
+    color: var(--Lightgray);
+    padding: 1rem;
+   
+}   
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.contact-links{
+    text-decoration: none;
+    color: var(--Lightgray);
+    transition: transform 0.2s ease-in;
+    align-items: center;
+    font-size: 0.8rem;   
+    letter-spacing: 0.01rem; 
+    font-weight: 100;
+    color: var(--Lightgray);
+   
+}
+
+footer{
+    font-size: 0.6rem;
+    padding: 0.3rem;
+
+}
+
+}
 
 
 
