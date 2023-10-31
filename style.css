@@ -598,10 +598,10 @@ footer{
     cursor: pointer;
     transition: opacity 0.5s ease-in-out;
 }
-.cv{
+/* .cv{
     width: 900px;
     height: 500px;
-}
+} */
 #contact{
     /* margin: auto; */
     font-family:  'Roboto', sans-serif ;
