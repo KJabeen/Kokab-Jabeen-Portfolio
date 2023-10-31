@@ -1006,9 +1006,6 @@ footer{
     font-family:  'Roboto', sans-serif ;
     /* height: 145vh; */
     margin: 0rem 0;
-    background-image: var(--gradient);
-    background-size: 400%;
-    animation: bg-animation 25s infinite alternate;
 
 }
 #projects h1{
