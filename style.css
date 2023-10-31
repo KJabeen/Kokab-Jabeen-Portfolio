@@ -642,8 +642,9 @@ footer{
    
 }
 
+    /* ================================================================================================= */
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px ){
     body{
 
     width: 100vw;
@@ -674,6 +675,7 @@ footer{
     right: 0px;
     background:none;
     font-size: 0.65rem;
+    font-weight: 400;
 
     
 }
@@ -713,20 +715,20 @@ footer{
     transition: transform 0.2s ease-in;
     
 }
-section{
+/* section{
     height: 80vh;
-}
+} */
 
 #welcome{
-    margin: auto;
+    margin: 0;
     
 }
 .intro{
     display: flex;
     flex-direction: column;
-    /* margin-top: 6vw; */
+    margin-top: 0rem;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 1rem 3.5rem;
     justify-content: space-around;
     gap: 3rem;
 }
@@ -737,8 +739,8 @@ section{
     
 }
 #welcome img{
-    width: 60%;
-    margin: auto;
+    width: 100%;
+    margin: 1rem 0;
     border-radius: 100%;
 }
 #welcome p{
@@ -753,8 +755,6 @@ section{
     color: var(--Verydarkgrayishblue);
     
 }
-
-
 
 #education{
     font-family: 'Roboto', sans-serif;
@@ -1004,8 +1004,7 @@ section{
 #projects{
     
     font-family:  'Roboto', sans-serif ;
-    
-    height: 145vh;
+    /* height: 145vh; */
     margin: 0rem 0;
     background-image: var(--gradient);
     background-size: 400%;
@@ -1013,13 +1012,14 @@ section{
 
 }
 #projects h1{
+
     color: var(--Lightgray);
-    margin: 5rem 0 0 0;
+    margin: 0rem 0 0 0;
     text-align: center;
     font-size: 1.3rem;
     letter-spacing: 0.25rem;  
     color: var(--Lightgray);
-    padding-top: 5rem;
+    padding-top: 0rem;
     
   
 }
@@ -1168,8 +1168,3 @@ footer{
 }
 
 }
-
-
-
-
-
