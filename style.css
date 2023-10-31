@@ -228,6 +228,7 @@ footer{
 #welcome img{
     margin: auto;
     border-radius: 100%;
+    box-shadow: 26px -16px 25px  rgb(207, 207, 207, 0.3);
 }
 #welcome p{
     font-size: 1.5rem;
@@ -730,7 +731,7 @@ footer{
     align-items: center;
     padding: 1rem 3.5rem;
     justify-content: space-around;
-    gap: 3rem;
+    gap: 1rem;
 }
 #welcome h1{
     font-size: 1.9rem;
@@ -742,6 +743,7 @@ footer{
     width: 100%;
     margin: 1rem 0;
     border-radius: 100%;
+    box-shadow: 26px -16px 25px  rgb(207, 207, 207, 0.3);
 }
 #welcome p{
     font-size: 1rem;
