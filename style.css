@@ -352,6 +352,16 @@ footer{
     align-items: center;
     padding-top: 2.5rem;
 }
+
+.module{
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    align-items: center;
+    opacity: 0.7;
+    padding-left: 0.7rem ;
+    
+
+}
 /* #work .work-logo p{
     font-size: 1.0em;
     color: var(--Lightgray);
@@ -360,7 +370,7 @@ footer{
     font-size: 0.9rem;
     color: var(--Lightgray);
     letter-spacing: 0.05rem;
-    opacity: 0.7;
+    opacity: 0.8;
 
 }
 
@@ -368,7 +378,7 @@ footer{
     font-size: 0.8rem;
     color: var(--Lightgray);
     letter-spacing: 0.05rem;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 #work .work-logo ol{
@@ -383,7 +393,7 @@ footer{
 }
 .skills{
     color: rgb(251, 255, 255);
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 
 }
 .skills span:nth-child(1){
@@ -827,7 +837,7 @@ footer{
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 0.35rem;
     justify-content: space-evenly;
 }
 #work h1{
@@ -855,7 +865,7 @@ footer{
     font-size: 0.9rem;
     color:  rgb(45, 174, 110);
     /* padding-bottom: 0.7rem; */
-    
+  
 }
 .work-logo h3{
     font-size: 1rem;
@@ -869,6 +879,9 @@ footer{
     letter-spacing: 0.05rem;
     align-items: center;
     padding-top: 0.7rem;
+}
+.jobPosition{
+    text-decoration: underline;
 }
 /* #work .work-logo p{
     font-size: 1.0em;
@@ -901,7 +914,7 @@ footer{
 }
 .skills{
     color: rgb(251, 255, 255);
-    padding: 0.9rem 0.1rem 0.9rem 0.1rem;
+    padding: 0.9rem 0.9rem 0.9rem 0.1rem;
     font-size: 0.8rem;
 
 }
@@ -995,6 +1008,22 @@ footer{
     letter-spacing: 0.09rem;
 }
 .skills span:nth-child(12){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(13){
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.3rem;
+    background-color: rgba(45, 174, 110,0.45);
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+.skills span:nth-child(16){
     border: none;
     border-radius: 6px;
     padding: 0.4rem 0.3rem;
