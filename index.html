@@ -1,355 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-        <title>Kokab Jabeen Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="shortcut icon" href="./images/avatar.jpg" type="image/x-icon">
-    
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    </head>
-<body>
-    <div class="container">
-        <span>l</span>
-        <span>o</span>
-        <span>a</span>
-        <span>d</span>
-        <span>i</span>
-        <span>n</span>
-        <span>g</span>
-        <span>.</span>
-        <span>.</span>
-        <span>.</span>
+    <title>Kokab Jabeen | Portfolio</title>
+
+    <link rel="shortcut icon" href="./images/avatar.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Loading -->
+    <div class="container" aria-label="loading">
+      <span>l</span><span>o</span><span>a</span><span>d</span><span>i</span
+      ><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>
     </div>
-    <!-- <div class="circle">
-       
-    </div> -->
+
     <header>
-    
-
-
-        <nav id="navbar">
-            <ul class="nav-link">
-                <li><a href="#welcome" class="nav-link welcomePage">Home</a></li>
-                <li><a href="#education" class="nav-link educationPage">Education</a></li>
-                <li><a href="#work" class="nav-link workPage">Experience</a></li>
-                <li><a href="#projects" class="nav-link projectsPage">Projects</a></li>
-                <li><a href="#resume" class="nav-link resumePage">Resume</a></li>
-                <li><a href="#contact" class="nav-link contactPage">Contact</a></li>
-            </ul>
-        </nav>
-    
+      <nav id="navbar" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#welcome" class="nav-item clicked">Home</a></li>
+          <li><a href="#education" class="nav-item">Education</a></li>
+          <li><a href="#work" class="nav-item">Experience</a></li>
+          <li><a href="#projects" class="nav-item">Projects</a></li>
+          <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-        
-   
-<section id="welcome">
-        <div class="intro">
-            <img src="./images/avatar.jpg" alt="avatar" width="300px">
-            <div>
-                <h3>HELLO___</h3>
-                <h1>I'm Kokab Jabeen.</h1>
-                <p>Lecturer Computer Science <br> Frontend developer</p>
-            </div>
-        </div>
-</section>
-<section id="education">
-    <h1>My Education</h1>
-  <div class="uni-logo">
-    <img src="./images/FRUAS.png" alt="">
-    <div class="uni-name">
-        <h2>
-            Frankfurt University of Applied Sciences, Germany
-        </h2>
-        <h3>Master of Engineering in IT</h3>
-         <p>2014-2017</p>
-         </div>
-</div>
-<div class="uni-logo">
-    <img src="./images/NED.png" alt="">
-    <div class="uni-name">
-        <h2>
-            NED University of Engineering & Technology
-        </h2>
-        <h3>Bachelor of Engineering in Electronics</h3>
-         <p>2014-2017</p>
-         </div>
-</div>
 
-</section>
-<section id="work">
-    <h1>My Work Experience</h1>
-  <div class="work-logo">
-   
-   <div class="division">
-        <div class="jobTitle">
-            <h2 class="jobPosition">
-            Lecturer Computer Science
-            </h2>
-            <h3>Walbrook Institute London (Formerly LIBF)</h3>
-            <p class="jobDate">Sept 2024 - present</p>
+    <!-- HOME -->
+    <section id="welcome" class="section">
+      <div class="intro">
+        <div class="avatar-wrap">
+          <img class="avatar" src="./images/avatar.jpg" alt="Kokab Jabeen avatar" />
+        </div>
+
+        <div class="intro-text">
+          <h3>HELLO___</h3>
+          <h1>I'm Kokab Jabeen.</h1>
+          <p class="tagline">
+            PhD Researcher (Computer Networks) · Lecturer (Computing/CS) · Frontend Developer
+          </p>
+
+          <div class="quick-facts">
+            <div class="fact">
+              <i class="ri-map-pin-line"></i>
+              <span>London, United Kingdom</span>
+            </div>
+
+            <div class="fact">
+              <i class="ri-links-line"></i>
+              <a
+                href="https://www.linkedin.com/in/kokab-jabeen-b5494589/"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+              <span class="dot">•</span>
+              <a href="https://github.com/KJabeen" target="_blank" rel="noreferrer"
+                >GitHub</a
+              >
+              <span class="dot">•</span>
+              <a
+                href="mailto:kokabjabeen@yahoo.com/"
+                target="_blank"
+                rel="noreferrer"
+                >Email</a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">Research Focus</h2>
+            <p class="card-text">
+              <strong>AI-Based Framework for Modeling and Analyzing Convergence in Inter-Domain Routing</strong>
+              (Case Study on BGP) — exploring routing convergence, policy impacts, and network stability
+              using data sources like RIPE RIS and RouteViews.
+            </p>
+
+            <div class="chips">
+              <span class="chip">BGP</span>
+              <span class="chip">Inter-Domain Routing</span>
+              <span class="chip">Convergence Modeling</span>
+              <span class="chip">Network Stability</span>
+              <span class="chip">AI in Networking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="two-col single">
+        <div class="card">
+          <h2 class="card-title">Skills & Tools</h2>
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">jQuery</span>
+            <span class="chip">C#</span>
+            <span class="chip">Python</span>
+            <span class="chip">R Studio</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">UI/UX</span>
+            <span class="chip">SQA</span>
+            <span class="chip">Packet Tracer</span>
+            <span class="chip">Wireshark</span>
+            <span class="chip">OPNET</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h1>Education</h1>
+
+      <div class="edu-grid">
+        <div class="edu-item">
+          <div class="edu-head">
+            <h2>Buckinghamshire New University, UK</h2>
+            <p class="edu-date">Jan 2026 – Present</p>
+          </div>
+          <h3>PhD Researcher in Computer Science (In Progress)</h3>
+          <p class="muted">
+            Research: AI-based analysis of convergence in inter-domain routing (BGP).
+          </p>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-head">
+            <h2>Frankfurt University of Applied Sciences, Germany</h2>
+            <p class="edu-date">Sep 2014 – Apr 2017</p>
+          </div>
+          <h3>Master of Engineering in Information Technology (2.1)</h3>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-head">
+            <h2>NED University of Engineering & Technology</h2>
+            <p class="edu-date">Jan 2010 – Jan 2014</p>
+          </div>
+          <h3>Bachelor of Engineering in Electronics (84.7%)</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="work" class="section">
+      <h1>Experience</h1>
+
+      <div class="timeline">
+        <!-- Ulster -->
+        <div class="job">
+          <div class="job-left">
+            <h2>Lecturer Computing</h2>
+            <h3>Ulster University at QA Higher Education Ltd</h3>
+            <p class="jobDate">Jan 2025 – Present</p>
             <p class="location">London, United Kingdom</p>
-        </div>
-        <div>
-            <ol> Job Description:
-                <li>Schedule Interactive sessions for Lectures (ILSE).
-                </li>
-                <li>Assess student progress through assignments, quizzes, and projects. </li>
-                <li>Prepare and teach these sessions, record the sessions and upload them.
-                </li>
-                <li>Manage and engage with the course feed and respond to questions within 24hours. 
-                </li>
-                <li>Grade assessments Validate Syntea questions
-                </li>
-                <li>Ensure learning materials are clear and up to date. 
-                </li>
-                <li>Interact with media production and module managers to ensure the quality of teaching materials</li>
-            </ol>
-            <div class="skills"> <h4 class="module">Teaching Modules</h4><br>
-                <span>Client Side Development-HTML/CSS/JS/juery</span>
-                <span>UI/UX Strategies</span>
-                <br><br>
-                <span>Computer Networking & Distributed System</span>
-                <span>Current Topics in AI</span>
-                <br><br>
-                
-                <!-- <br><br> -->
-                
-                <span>Data Structure, Algorithm and 
-                Programming Languages </span> <br><br>
-               
-            
-               
-                
+          </div>
+
+          <div class="job-right">
+            <ul>
+              <li>Delivered face-to-face teaching and lab sessions with hands-on practical work.</li>
+              <li>Assessed coursework, quizzes, and projects; provided detailed feedback and academic support.</li>
+              <li>Improved teaching delivery using student feedback and performance insights.</li>
+            </ul>
+
+            <div class="courses">
+              <h4 class="module">Courses taught</h4>
+              <div class="chips">
+                <span class="chip">Client-Side Development (JavaScript, jQuery)</span>
+                <span class="chip">Computer Networks</span>
+              </div>
             </div>
-        </div>
-    </div>
-   <!-- <div class="division">
-    <div>
-    <h2>
-        Postgraduate Software Teaching assistant 
-    </h2>
-    <h3>UCL University College London · Part-time</h3>
-     <p>Oct 2018 - Jul 2019 · 10 mos</p>
-     <p class="location">London, United Kingdom</p>
-    </div>
-     <div>
-        <ol> Job Description:
-            <li>Facilitate group discussion and encourage active participation of all group members to focus on web development software e.g. HTML,CSS,JS,C# and .NET Framework (taking actions for encouraging contribution from less active members of the group.
-
-            </li>
-            <li>Intervene where necessary to keep the discussions focussed.
-
-            </li>
-            <li>Provide help to students during Software Labs.
-
-            </li>
-            <li>Provide help to students during Labs.
-
-            </li>
-            <li>Question the outcomes produced by the students. What, why, how …
-
-            </li>
-            <li>Help with technical problems (i.e., use of specialist software, support for the use of discussion boards).
-
-            </li>
-        
-        </ol>
-    </div>
-    </div>
-</div> -->
-</section>
-<section id="projects">
-    <h1>My projects</h1>
-    <div class="List">
- <!-- -------------------------------- -->
-    <div class="projectList">
-            <a href="https://kjabeen.github.io/Weather-App/" target="_blank">
-                <div class="pl">
-                    <div class="image">
-                        <img src="./images/weather.png" alt="expense-chart-image" width="150px">
-                    </div>
-                    <div class="pd">
-                        <h3>Weather App</h3>
-                
-                        <a href="https://github.com/KJabeen/Weather-App" target="_blank">
-                        <p>View Code &#8599  </p>
-                        </a>
-                    </div>
-                </div>
-            </a>
+          </div>
         </div>
 
- <!-- -------------------------------- -->
-            <div class="projectList">
-            <a href="https://kjabeen.github.io/Dictionary-App/" target="_blank">
-                <div class="pl">
-                    <div class="image">
-                        <img src="./images/dictionary.png" alt="dictionary-image" width="150px">
-                    </div>
-                    <div class="pd">
-                        <h3>Dictionary App</h3>
-                
-                        <a href="https://github.com/KJabeen/Dictionary-App" target="_blank">
-                        <p>View Code &#8599  </p>
-                        </a>
-                    </div>
-                </div>
-            </a>
+        <!-- Solent -->
+        <div class="job">
+          <div class="job-left">
+            <h2>Lecturer Computing</h2>
+            <h3>Solent University at QA Higher Education Ltd</h3>
+            <p class="jobDate">Jan 2025 – Present</p>
+            <p class="location">London, United Kingdom</p>
+          </div>
+
+          <div class="job-right">
+            <ul>
+              <li>Delivered online and face-to-face lessons with structured learning materials and activities.</li>
+              <li>Designed assessments, quizzes, and case studies; graded with constructive feedback.</li>
+              <li>Supported students via forums and one-to-one sessions.</li>
+            </ul>
+
+            <div class="courses">
+              <h4 class="module">Courses taught</h4>
+              <div class="chips">
+                <span class="chip">Foundation Computing</span>
+                <span class="chip">UX Strategies</span>
+                <span class="chip">Foundation Mathematics</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-<!-- -------------------------------- -->
-        
-<!--         <div class="projectList">
-            <a href="https://kjabeen.github.io/Expenses-Chart/" target="_blank">
-                <div class="pl">
-                    <div class="image">
-                        <img src="./images/expense-chart.png" alt="expense-chart-image" width="150px">
-                    </div>
-                    <div class="pd">
-                        <h3>Expenses Chart</h3>
-                
-                        <a href="https://github.com/KJabeen/Expenses-Chart" target="_blank">
-                        <p>View Code &#8599  </p>
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div> -->
+        <!-- Walbrook -->
+        <div class="job">
+          <div class="job-left">
+            <h2>Lecturer Computer Science</h2>
+            <h3>The Walbrook Institute London (formerly LIBF), IU Group</h3>
+            <p class="jobDate">Sep 2024 – Aug 2025</p>
+            <p class="location">London, United Kingdom</p>
+          </div>
 
-     <!-- -------------------------------- -->
+          <div class="job-right">
+            <ul>
+              <li>Delivered interactive live sessions, recorded materials, and supported learners through the course feed.</li>
+              <li>Validated assessment questions and collaborated to maintain high-quality learning resources.</li>
+              <li>Responded to learner questions promptly and provided academic guidance.</li>
+            </ul>
 
+            <div class="courses">
+              <h4 class="module">Courses taught</h4>
+              <div class="chips">
+                <span class="chip">Web Application Development (JavaScript)</span>
+                <span class="chip">Software Quality Assurance (SQA)</span>
+                <span class="chip">Research in AI</span>
+                <span class="chip">Networks & Distributed Systems</span>
+                <span class="chip">DSA & Programming Languages</span>
+                <span class="chip">Mathematics Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terabyte -->
+        <div class="job">
+          <div class="job-left">
+            <h2>Junior Frontend Developer</h2>
+            <h3>Terabyte Trading Solutions Limited</h3>
+            <p class="jobDate">Jan 2021 – Jan 2022</p>
+            <p class="location">London, United Kingdom</p>
+          </div>
+
+          <div class="job-right">
+            <ul>
+              <li>Built responsive websites and UI components using HTML, CSS, and JavaScript.</li>
+              <li>Converted mock-ups into user-friendly interfaces and ensured cross-browser compatibility.</li>
+              <li>Applied responsive design principles to support desktop and mobile layouts.</li>
+            </ul>
+
+            <div class="courses">
+              <h4 class="module">Key work areas</h4>
+              <div class="chips">
+                <span class="chip">Responsive UI</span>
+                <span class="chip">HTML/CSS</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Cross-browser testing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UCL TA -->
+        <div class="job">
+          <div class="job-left">
+            <h2>Postgraduate Teaching Assistant</h2>
+            <h3>University College London (UCL)</h3>
+            <p class="jobDate">Oct 2018 – Jan 2019</p>
+            <p class="location">London, United Kingdom</p>
+          </div>
+
+          <div class="job-right">
+            <ul>
+              <li>Supported lectures, seminars, and workshops; helped students understand core topics.</li>
+              <li>Evaluated student work and assisted with academic support sessions.</li>
+            </ul>
+
+            <div class="courses">
+              <h4 class="module">Supported teaching areas</h4>
+              <div class="chips">
+                <span class="chip">Information Retrieval</span>
+                <span class="chip">Databases</span>
+                <span class="chip">Information Architecture</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next IT Generation -->
+        <div class="job">
+          <div class="job-left">
+            <h2>Junior Web Developer</h2>
+            <h3>Next IT Generation Solutions Ltd</h3>
+            <p class="jobDate">May 2017 – Nov 2019</p>
+            <p class="location">London, United Kingdom</p>
+          </div>
+
+          <div class="job-right">
+            <ul>
+              <li>Developed user-facing features using HTML, CSS, and JavaScript.</li>
+              <li>Implemented responsive layouts and improved usability across devices.</li>
+              <li>Worked with Git workflows and collaborated on updates and fixes.</li>
+            </ul>
+
+            <div class="courses">
+              <h4 class="module">Key work areas</h4>
+              <div class="chips">
+                <span class="chip">Frontend Development</span>
+                <span class="chip">Responsive Design</span>
+                <span class="chip">Git / Version Control</span>
+                <span class="chip">UI Improvements</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tutor Frankfurt -->
+        <div class="job">
+          <div class="job-left">
+            <h2>University Tutor</h2>
+            <h3>Frankfurt University of Applied Sciences</h3>
+            <p class="jobDate">Apr 2015 – Feb 2016</p>
+            <p class="location">Frankfurt am Main, Germany</p>
+          </div>
+
+          <div class="job-right">
+            <ul>
+              <li>Created tailored lesson plans and delivered tutorials to support student learning.</li>
+              <li>Helped students troubleshoot technical issues and debug code through demonstrations.</li>
+            </ul>
+
+            <div class="courses">
+              <h4 class="module">Tutoring areas</h4>
+              <div class="chips">
+                <span class="chip">IT Fundamentals</span>
+                <span class="chip">Programming Support</span>
+                <span class="chip">Debugging & Problem Solving</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h1>Projects</h1>
+
+      <div class="List">
         <div class="projectList">
-            <a href="https://kjabeen.github.io/Interactive-Card-details/" target="_blank">
-                <div class="pl">
-                    <div class="image">
-                        <img src="./images/card.png" alt="Interactive Card Details-image" >
-                    </div>
-                    <div class="pd">
-                        <h3>Interactive Card Details</h3>
-            
-                        <a href="https://github.com/KJabeen/Interactive-Card-details" target="_blank">
-                        <p>View Code &#8599  </p>
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-     <!-- ---------------------------------->
-
-        <div class="projectList">
-            <a href="https://kjabeen.github.io/Age-Calculator-App/" target="_blank">
-                <div class="pl">
-                    <div class="image">
-                        <img src="./images/age-cal.png" alt="age-cal-image" width="150px">
-                    </div>
-                    <div class="pd">
-                        <h3>Age Calculator App</h3>
-            
-                        <a href="https://github.com/KJabeen/Age-Calculator-App" target="_blank">
-                        <p>View Code &#8599  </p>
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-    <!-- ---------------------------------->
-
-        <div class="projectList">
-            <a href="https://kjabeen.github.io/Intro-Component-with-Signup-Form/" target="_blank">
-                <div class="pl">
-                    <div class="image">
-                        <img src="./images/signup.png" alt="age-cal-image" width="150px">
-                    </div>
-                    <div class="pd">
-                        <h3>Signup Form</h3>
-            
-                        <a href="https://github.com/KJabeen/Intro-Component-with-Signup-Form" target="_blank">
-                        <p>View Code &#8599  </p>
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- ---------------------------------->
-
-        <div class="projectList">
-            <a href="https://kjabeen.github.io/BMI-Calculator/" target="_blank">
-                <div class="pl">
-                    <div class="image">
-                        <img src="./images/bmi.png" alt="BMI-Calculator-image" width="150px">
-                    </div>
-                    <div class="pd">
-                        <h3>BMI Calculator App</h3>
-            
-                        <a href="https://github.com/KJabeen/BMI-Calculator" target="_blank">
-                        <p>View Code &#8599  </p>
-                        </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-              <!-- ---------------------------------->
-
-<!--               <div class="projectList">
-                <a href="https://kjabeen.github.io/Interactive-Rating-Project/" target="_blank">
-                    <div class="pl">
-                        <div class="image">
-                            <img src="./images/interactive.png" alt="Interactive-image" width="150px">
-                        </div>
-                        <div class="pd">
-                            <h3>Interactive Rating</h3>
-                
-                            <a href="https://github.com/KJabeen/Interactive-Rating-Project" target="_blank">
-                            <p>View Code &#8599  </p>
-                            </a>
-                        </div>
-                    </div>
+          <a href="https://kjabeen.github.io/Weather-App/" target="_blank" rel="noreferrer">
+            <div class="pl">
+              <div class="image"><img src="./images/weather.png" alt="Weather App" /></div>
+              <div class="pd">
+                <h3>Weather App</h3>
+                <a href="https://github.com/KJabeen/Weather-App" target="_blank" rel="noreferrer">
+                  <p>View Code &#8599;</p>
                 </a>
-            </div> -->
+              </div>
+            </div>
+          </a>
+        </div>
 
-        <!-- ------------------ -->
+        <div class="projectList">
+          <a href="https://kjabeen.github.io/Dictionary-App/" target="_blank" rel="noreferrer">
+            <div class="pl">
+              <div class="image"><img src="./images/dictionary.png" alt="Dictionary App" /></div>
+              <div class="pd">
+                <h3>Dictionary App</h3>
+                <a href="https://github.com/KJabeen/Dictionary-App" target="_blank" rel="noreferrer">
+                  <p>View Code &#8599;</p>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
 
-    </div>
-    <p class="show-all">
-    <a href="https://github.com/KJabeen" target="_blank">More Projects &#11166 &#11166</a>
-    </p> 
-     
-   </section>
-  <section id="resume">
-    <iframe class="cv" src="Kokab-Jabeen-resume.pdf" width="900" height="500" target="_blank"></iframe>
-  </section>
-   
-   <section id="contact">
-    <h1 class="contactHeading">Let's work together</h1>
-    
-    <div class="contact-me">
-        <a href="https://github.com/KJabeen" class="contact-links" target="_blank">
+        <div class="projectList">
+          <a href="https://kjabeen.github.io/Interactive-Card-details/" target="_blank" rel="noreferrer">
+            <div class="pl">
+              <div class="image"><img src="./images/card.png" alt="Interactive Card Details" /></div>
+              <div class="pd">
+                <h3>Interactive Card Details</h3>
+                <a href="https://github.com/KJabeen/Interactive-Card-details" target="_blank" rel="noreferrer">
+                  <p>View Code &#8599;</p>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="projectList">
+          <a href="https://kjabeen.github.io/Age-Calculator-App/" target="_blank" rel="noreferrer">
+            <div class="pl">
+              <div class="image"><img src="./images/age-cal.png" alt="Age Calculator App" /></div>
+              <div class="pd">
+                <h3>Age Calculator App</h3>
+                <a href="https://github.com/KJabeen/Age-Calculator-App" target="_blank" rel="noreferrer">
+                  <p>View Code &#8599;</p>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="projectList">
+          <a href="https://kjabeen.github.io/Intro-Component-with-Signup-Form/" target="_blank" rel="noreferrer">
+            <div class="pl">
+              <div class="image"><img src="./images/signup.png" alt="Signup Form" /></div>
+              <div class="pd">
+                <h3>Signup Form</h3>
+                <a href="https://github.com/KJabeen/Intro-Component-with-Signup-Form" target="_blank" rel="noreferrer">
+                  <p>View Code &#8599;</p>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="projectList">
+          <a href="https://kjabeen.github.io/BMI-Calculator/" target="_blank" rel="noreferrer">
+            <div class="pl">
+              <div class="image"><img src="./images/bmi.png" alt="BMI Calculator App" /></div>
+              <div class="pd">
+                <h3>BMI Calculator App</h3>
+                <a href="https://github.com/KJabeen/BMI-Calculator" target="_blank" rel="noreferrer">
+                  <p>View Code &#8599;</p>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <p class="show-all">
+        <a href="https://github.com/KJabeen" target="_blank" rel="noreferrer">More Projects &#11166 &#11166</a>
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h1 class="contactHeading">Contact</h1>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-row">
+            <i class="ri-map-pin-2-line ri-xl"></i>
+            <span>London, United Kingdom</span>
+          </div>
+
+          <div class="contact-row">
+            <i class="ri-linkedin-fill ri-xl"></i>
+            <a
+              href="https://www.linkedin.com/in/kokab-jabeen-b5494589/"
+              target="_blank"
+              rel="noreferrer"
+              >LinkedIn</a
+            >
+          </div>
+
+          <div class="contact-row">
+            <i class="ri-github-fill ri-xl"></i>
+            <a href="https://github.com/KJabeen" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="contact-me">
+          <a href="https://github.com/KJabeen" class="contact-links" target="_blank" rel="noreferrer">
             <i class="ri-github-fill ri-3x"></i>
             <p>GitHub</p>
-        </a>
-        <a href="https://www.linkedin.com/in/kokab-jabeen-b5494589/" class="contact-links" target="_blank">
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kokab-jabeen-b5494589/"
+            class="contact-links"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="ri-linkedin-fill ri-3x"></i>
             <p>LinkedIn</p>
-        </a>
-        <a href="mailto:kokabjabeen@yahoo.com" class="contact-links" target="_blank">
-            <i class="ri-at-line ri-3x"></i>
-            <p>Email Me</p>
-        </a>
-    </div>
-   </section>
+          </a>
+        </div>
+      </div>
+    </section>
 
-    
     <script src="index.js"></script>
-</body>
-<footer>
-    Created by Kokab Jabeen
- </footer>
+  </body>
+
+  <footer>Created by Kokab Jabeen</footer>
 </html>
